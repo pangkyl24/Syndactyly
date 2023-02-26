@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  Inputs: <br/>
+  <form id="sendForm">
+    
+    Size: <select id='size' name='size'>
+      <option value="30x10">30x10</option>
+      <option value="26x8">26x8</option>
+      <option value="22x6">22x6</option>  
+    </select>
+
+    <br/>
+    
+    Age: <select id='age' name='age'>
+      <option value='old'>Old</option>
+      <option value='young'>Young</option> 
+    </select>
+
+    <br/>
+
+    <input type='submit' value='Submit'>
+    
+  </form>
+
+  <br/>
+
+  Output Image: <br/>
+  <image id='outputImage'></image>
+
+  <script src="jquery.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
